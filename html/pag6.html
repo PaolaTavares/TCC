@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIDAS</title>
     <link rel="stylesheet" href="/css/pag6.css">
+    <link rel="stylesheet" href="/js/nos.js">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="icon" href="/images/macaco.png">
 </head>
@@ -24,7 +25,7 @@
 
    
     <form class="nav-menu">
-        <a href="/html/pag0.html"><b>HOME</b></a>
+        <a href="/index.html"><b>HOME</b></a>
         <a href="/html/pag1.html"><b>JOGOS</b></a>
         <a href="/html/pag2.html"><b>BLOG</b></a>
         <a href="/html/pag3.html"><b>IMPORTANTE!</b></a>
@@ -98,6 +99,58 @@ Por meio de parcerias com outras plataformas, ONGs, movimentos ambientais e grup
     </div>
 
 
+
+     <div class="contain">
+
+        <div class="wrapper">
+      
+          <div class="form">
+            <h4>ENTRE EM CONTATO</h4>
+            <h2 class="form-headline">Envie-nos uma mensagem</h2>
+            <form id="submit-form" action="">
+              <p>
+                <input id="name" class="form-input" type="text" placeholder="Nome Completo*">
+                <small class="name-error"></small>
+              </p>
+              <p>
+                <input id="email" class="form-input" type="email" placeholder="Email*">
+                <small class="name-error"></small>
+              </p>
+              <p class="full-width">
+                <input id="company-name" class="form-input" type="text" placeholder="Telefone*" required>
+                <small></small>
+              </p>
+              <p class="full-width">
+                <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Mensagem*" required></textarea>
+                <small></small>
+              </p>
+              <p class="full-width">
+                <input type="checkbox" id="checkbox" name="checkbox" checked> Sim, gostaria de receber uma resposta por telefone/e-mail.
+              </p>
+              <p class="full-width">
+                <input type="submit" class="submit-btn" value="Enviar" onclick="checkValidations()">
+                <button class="reset-btn" onclick="reset()">Deletar</button>
+              </p>
+            </form>
+          </div>
+      
+          <div class="contacts contact-wrapper">
+      
+            <ul>
+              <li>O site VIDAS (Visibilidade às Instituições em Defesa aos Animais Silvestres) está sempre aberto para receber seu contato! Se você tiver dúvidas, quiser conversar, ajudar em nosso projeto ou relatar algum problema, não hesite em nos escrever. <br>
+                Estamos aqui para promover a proteção e o bem-estar dos animais silvestres e contamos com a sua colaboração para fazer a diferença. Entre em contato conosco e ajude a espalhar a causa!
+              </li>
+              <span class="hightlight-contact-info">
+                <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> vidasbrasil@gmail.com</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+55 12 3456 7890</span></li>
+              </span>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+    
 
 
     <div class="mato">

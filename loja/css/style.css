@@ -90,6 +90,7 @@
     max-width: 10000px;
     position: relative;
     margin: auto;
+    margin-top: 2%;
   }
   
   /* Next & previous buttons */
@@ -170,6 +171,99 @@
   @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
   }
+
+
+
+
+
+
+  
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.avatar img{
+    vertical-align: middle;
+    width: 209px;
+    height: 209px;
+    border-radius: 7%; 
+    margin: 12px;
+
+    box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Adiciona transição suave */
+}
+
+.avatar img:hover {
+    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+    box-shadow: #0f7299 8px 8px 15px; /* Muda o box-shadow ao passar o mouse */
+}
+
+
+
+.wrap{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    grid-gap:10px;
+    padding:0.5em;
+    perspective:500px;
+    
+  }
+  .article {
+    display:flex;
+    flex-direction:column;
+    height:400px;
+    position:relative;
+    background-size:cover;
+    border-radius:7px;
+    overflow:hidden;
+    padding:1em;
+    cursor:pointer;
+    transform: rotateX(0deg) rotateY(0deg);
+    transition: all 0.2s linear ;
+    will-change: transform;
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+  }
+  
+  .article:hover {
+    box-shadow: 5px 5px 10px #c2eeff;
+  }
+  
+  .article:nth-child(5n+1){
+      background-image:url("http://127.0.0.1:5500/loja/sproducts.html");
+  }
+  
+  .article:nth-child(5n+2){
+      background-image:url("http://127.0.0.1:5500/loja/sproducts2.html");
+  }
+
+  .article:nth-child(5n+3){
+    background-image:url("http://127.0.0.1:5500/loja/sproducts3.html");
+  }
+  
+  .article:nth-child(5n+4){
+    background-image:url("http://127.0.0.1:5500/loja/sproducts4.html");
+  }
+  .article:nth-child(5n+5){
+    background-image:url("http://127.0.0.1:5500/loja/sproducts5.html");
+  }
+  
+  .article:nth-child(5n+6){
+    background-image:url("http://127.0.0.1:5500/loja/sproducts6.html");
+  }
+
+  .article:nth-child(5n+7){
+    background-image:url("http://127.0.0.1:5500/loja/sproducts7.html");
+}
+.article:nth-child(5n+8){
+  background-image:url("http://127.0.0.1:5500/loja/sproducts8.html");
+}
+
+
+
+
 
 
 
@@ -269,7 +363,7 @@ section{
 #prodetails .single-pro-image{
     width: 40%;
     margin-right: 40px;
-    background-color: #86d7f7;
+    background-color: #ade8ff;
 }
 
 
