@@ -9,8 +9,8 @@ body{
     width: 100vw;
     height: 90vh;
     margin-top: 10px;
-    background-image: url('../img/fundo.png');
     font-family: 'Ubuntu', sans-serif;
+    background-image: url('/forca/img/fundo.png');
 }
 
 .container{
