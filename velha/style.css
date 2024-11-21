@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('image/fundo.png');
+    background-image: url('/velha/image/fundo.png');
 }
 
 main {
