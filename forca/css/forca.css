@@ -10,7 +10,7 @@ body{
     height: 90vh;
     margin-top: 10px;
     font-family: 'Ubuntu', sans-serif;
-    background-image: url('/forca/img/fundo.png');
+    background-image: url('../img/fundo.png');
 }
 
 .container{
