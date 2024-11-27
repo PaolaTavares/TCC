@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(/forca/img/fundo.png);
+    background-image: url("/forca/img/forca01.png");
     width: 100vw;
     height: 90vh;
     margin-top: 10px;
