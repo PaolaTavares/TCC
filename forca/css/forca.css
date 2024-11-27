@@ -6,11 +6,11 @@
 }
 
 body{
+    background-image: url('/forca/img/fundo.png');
     width: 100vw;
     height: 90vh;
     margin-top: 10px;
     font-family: 'Ubuntu', sans-serif;
-    background-image: url('/forca/img/fundo.png');
 }
 
 .container{
